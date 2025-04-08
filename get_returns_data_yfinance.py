@@ -16,7 +16,7 @@ data.reset_index(inplace=True)
 
 # Save the historical data to a CSV file
 # Corrected to use the resulting DataFrame
-filename = "gme_stock_data_2021.csv"
+filename = "blablabla.csv"
 data.to_csv(filename, index=False)
 
 print(f"stock data from {start_date} to {end_date} saved to {filename}")
